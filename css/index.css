@@ -1,7 +1,12 @@
 :root {
+    /* COLORES */
     --color-uno: #E300BF;
     --color-dos: #44E50B;
     --color-tres: #E0CD1C;
+    /* TIPOGRAFÍA */
+    --tipo-placeholder-size: 14.59px;
+    --tipo-button-size: 13.37px;
+    --tipo-p-size: 1rem;
 }
 
 @font-face {
@@ -46,6 +51,7 @@ main {
     height: 33px;
     width: 172.7646942138672px;
     border: 0.35px solid #000000;
+    font-size: var(--tipo-placeholder-size);
 }
 
 .componenteCarlos_formSearch_button {
@@ -54,5 +60,11 @@ main {
     background: #F43737;
     color: white;
     border: 0.35px solid #000000;
+    border-top: 0;
     align-self: flex-end;
+    font-size: var(--tipo-button-size);
+}
+
+.componenteCarlos_p {
+    font-size: var(--tipo-p-size);
 }
