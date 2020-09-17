@@ -1,4 +1,52 @@
-/* *********************************** */
-/* *** Estilos SOLO para index.html *** */
-/* *********************************** */
+:root {
+    --color-uno: #E300BF;
+    --color-dos: #44E50B;
+    --color-tres: #E0CD1C;
+}
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('font/roboto-regular-webfont.woff2') format('woff2'), url('font/roboto-regular-webfont.woff') format('woff');
+}
+
+.componenteCarlos {
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.componenteCarlos_logo {
+    width: 120px;
+    height: 48px;
+    background: #070707;
+}
+
+.componenteCarlos_cir {
+    width: 81px;
+    height: 81px;
+    border: 15px solid var(--color-uno);
+    border-radius: 50%;
+}
+
+.componenteCarlos_formSearch {
+    display: flex;
+    flex-direction: column;
+}
+
+.componenteCarlos_formSearch_input {
+    height: 33px;
+    width: 172.7646942138672px;
+    border: 0.35px solid #000000;
+}
+
+.componenteCarlos_formSearch_button {
+    height: 23px;
+    width: 50.24615478515625px;
+    background: #F43737;
+    color: white;
+    border: 0.35px solid #000000;
+}
